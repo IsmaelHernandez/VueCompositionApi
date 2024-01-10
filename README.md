@@ -1,4 +1,4 @@
-Proyecto creado para practicar Composition-Api Vue.js 3
+#Proyecto creado para practicar Composition-Api Vue.js 3
 # vue-composition-api
 
 ## Project setup
