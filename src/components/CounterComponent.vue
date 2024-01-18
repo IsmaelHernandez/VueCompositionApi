@@ -1,27 +1,25 @@
 <template>
-  <h1>{{ count }}</h1>
+  <h1>Mi primer componente compositionAPI</h1>
+  <h3>{{ count }}</h3>
   <button @click="increment">Increment</button>
   <button @click="decrement">Decrement</button>
   <button @click="reset">Reset</button>
 </template>
 
 <script setup>
-
 import { ref } from "vue";
 
-const count = ref(0); //propiedad que hago reactiva
+const count = ref(0);
 
 const increment = () => {
-  return count.value++;
+  count.value++;
 };
 
 const decrement = () => {
-  return (count.value = count.value - 1);
+  count.value = count.value - 1;
 };
 
 const reset = () => {
-  return (count.value = 0);
+  count.value = 0;
 };
-
-
 </script>

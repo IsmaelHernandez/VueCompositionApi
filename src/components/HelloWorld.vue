@@ -1,16 +1,13 @@
 <template>
   <div class="hello">
-    <h1>Hola isma</h1>
-    <FirstComponent />
+    <!-- <FirstComponent />
+    <DirectivasComponent />
+    <ModelFormComponentVue /> -->
+    <TeacherFormComponent />
   </div>
 </template>
 
-<script>
-import FirstComponent from './CounterComponent.vue';
-export default {
-  name: "HelloWorld",
-  components: {
-    FirstComponent,
-  },
-};
+<script setup>
+import TeacherFormComponent from './teacher/TeacherFormComponent.vue';
+
 </script>
